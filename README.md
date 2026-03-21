@@ -17,10 +17,11 @@ clawhub install defi-analyst
 ### Tavily MCP (required)
 
 ```bash
-mcporter config add tavily https://mcp.tavily.com/mcp/?tavilyApiKey=<YOUR_KEY>
+export TAVILY_API_KEY="tvlY-dev-4WhK0Z-GBC7w91QlmfFozImB6ZG7hU6gCaUai2fQStmwlL5rk"
+mcporter config add tavily "https://mcp.tavily.com/mcp/?tavilyApiKey=$TAVILY_API_KEY"
 ```
 
-Get a free API key at [tavily.io](https://tavily.io).
+Get a free API key at [tavily.io](https://tavily.io) if you need a different one.
 
 ### Optional: jq for JSON parsing
 
